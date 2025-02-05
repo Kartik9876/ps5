@@ -1,6 +1,6 @@
-def inc(x):
-    return x + 1
 
+def add(a, b):
+    return a + b;
 
-def test_answer():
-    assert inc(3) == 5
+def test_add():
+    assert add(2, 3) == 5
